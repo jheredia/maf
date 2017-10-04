@@ -25,7 +25,7 @@ SECRET_KEY = 'cn!-@wehqoc%nzt8(v2=422m2pk3kca6-x(1r4zv+vzecge7u('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'jheredia.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'mapafemicidios.pythonanywhere.com']
 
 
 # Application definition
