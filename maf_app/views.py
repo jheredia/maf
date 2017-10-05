@@ -1,3 +1,10 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+
+def maf(request):
+	return render(request, 'maf_app/maf.html', {})
+
+def femicidios_list(request):
+	return render(request, 'maf_app/maf.html', {})
+
