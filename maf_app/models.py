@@ -4,8 +4,10 @@ from django.utils import timezone
 class Femicidio(models.Model):
 	author = models.ForeignKey('auth.User')
 	created_date = models.DateTimeField(default=timezone.now)
+	updated_at = models.DateTimeField(auto_now=True)
 	name = models.CharField(max_length=64)
 	age = models.PositiveIntegerField()
+	date = models.DateField()
 	city = models.CharField(max_length=64)
 	province = models.CharField(max_length=64)
 	country = models.CharField(default='Argentina', editable=False, max_length=32)
